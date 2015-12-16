@@ -1,0 +1,21 @@
+body {
+  font-size: 32px;
+  font-family: 'helvetica neue', helvetica, arial;
+  font-weight: bold;
+  color: white;
+  background: black;
+  letter-spacing:0.025em;
+}
+
+@media (max-width: 400px) {
+  body {
+    font-size: 54px;
+  }
+}
+a { 
+  border: 0 none;
+  outline: none;
+  color: #fff;
+  color: red;
+  text-decoration: none;
+}
